@@ -17,7 +17,7 @@ namespace Selenium.UnitTest
         public void Can_Go_To_SignIn()
         {
             Pages.LoginPage.Goto();
-            Pages.LoginPage.SignIn("jeferson.souza@bancodaycoval.com.br", "123");
+            Pages.LoginPage.SignIn("user", "pass");
             Assert.IsTrue(Pages.HomePage.IsAtSignIn("JBS"));
         }
 
