@@ -55,8 +55,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Selenium.Framework.Tests\Selenium.Framework.csproj">
-      <Project>{ba3a56a2-9c1c-4c46-84ed-7cb638f40234}</Project>
+    <ProjectReference Include="..\Selenium.Framework\Selenium.Framework.csproj">
+      <Project>{B37B145C-EF85-4279-BC4F-51F830A47C68}</Project>
       <Name>Selenium.Framework</Name>
     </ProjectReference>
   </ItemGroup>
